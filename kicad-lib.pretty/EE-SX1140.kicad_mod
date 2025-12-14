@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -13.5 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8215db1f-3a2f-4200-a11d-0565160c270e")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "EE-SX1140"
-		(at 0 -12 0)
+		(at 0 -5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f57e7bd4-ac03-4c09-a17b-9fc89631012e")
@@ -67,6 +67,30 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -7.5 -0.5) (xy -6 -0.5) (xy -6 -1) (xy -5 0) (xy -6 1) (xy -6 0.5) (xy -7.5 0.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b8ced931-9113-4a70-9d37-05c9489b3169")
+	)
+	(fp_poly
+		(pts
+			(xy 5 -0.5) (xy 6.5 -0.5) (xy 6.5 -1) (xy 7.5 0) (xy 6.5 1) (xy 6.5 0.5) (xy 5 0.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "38667286-4001-492f-8c11-48f73c7eee61")
+	)
 	(fp_rect
 		(start -12 -3)
 		(end 12 3)
@@ -89,8 +113,34 @@
 		(layer "F.Fab")
 		(uuid "7238df8a-041c-46b0-af55-187e41592ab3")
 	)
+	(fp_text user "Japan"
+		(at 8.9 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4aa30fb-6920-4c49-81e3-6ea4b7cdc781")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Omron"
+		(at -7.9 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d72c9832-9dc0-4a5c-892f-7b85f95e8387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "U"
-		(at 0 -10.5 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1406a8f8-5ecb-4e19-88a1-a963eca73088")
@@ -139,5 +189,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "33e26316-58e9-48ae-9715-287af7ec415f")
+	)
+	(model "/home/poofjunior/projects/kicad_libraries/kicad-lib/kicad-lib.3dshapes/Omron_EE_SX1140.step"
+		(offset
+			(xyz -10 -1 -0.015)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
